@@ -1,0 +1,81 @@
+<div
+  class="d-flex flex-column align-items-center align-items-sm-start text-white min-vh-100 h-100 w-100 link-light sidebar">
+  <span class="fs-5 mb-3 mt-4 accent-color">
+    <p style="font-size:xx-large;">Bridge</p>
+  </span>
+  <ul class="nav nav-pills flex-column align-items-center align-items-sm-start h-100 w-100" id="menu">
+    <li class="nav-item">
+      <a href="../admin/admin.php" class="nav-link align-middle px-0">
+        <i class="fs-4 bi-house d-none d-sm-inline"></i> <span class="ms-1  text-white">Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-pin-angle d-none d-sm-inline"></i> <span class="ms-1  text-white">Corsi</span> </a>
+      <ul class="collapse show flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../admin/creaTipoCorso.php" class="nav-link px-0"> <span class=" text-white">Crea tipologia di
+              corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../admin/gestisciTipoCorso.php" class="nav-link px-0"> <span class=" text-white">Gestisci tipologia
+              di corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../condivise/archiviaCorso.php" class="nav-link px-0"> <span class=" text-white">Archivia
+              corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../condivise/eliminaCorso.php" class="nav-link px-0"> <span class=" text-white">Elimina
+              corso</span></a>
+        </li>
+      </ul>
+    </li>
+
+
+    <li>
+      <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-person-plus d-none d-sm-inline"></i> <span class="ms-1  text-white">Docenti</span></a>
+      <ul class="collapse show flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../admin/creaDocente.php" class="nav-link px-0"> <span class=" text-white">Crea docente</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../admin/creaTutor.php" class="nav-link px-0"> <span class=" text-white">Crea tutor</span></a>
+        </li>
+      </ul>
+    </li>
+
+
+    <li>
+      <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-book d-none d-sm-inline"></i> <span class="ms-1  text-white">Studenti</span></a>
+      <ul class="collapse show flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../condivise/corsiFrequentatiMatricola.php" class="nav-link px-0"> <span class=" text-white">Corsi frequentati da studenti e disiscrizione</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../admin/homeUtente.php" class="nav-link px-0"> <span class=" text-white">Messaggio home studenti</span></a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#submenu4" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-person d-none d-sm-inline"></i> <span class="ms-1  text-white">Utenti</span></a>
+      <ul class="collapse show flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../condivise/gestisciUtenti.php" class="nav-link px-0"> <span class=" text-white">Gestisci
+              utenti</span></a>
+        </li>
+      </ul>
+    </li>
+
+
+    <hr style="background-color: white; border-color: white; height: 1px; border: 1px;">
+    <li class="text-center">
+      <a class="btn btn-outline-danger px-3 mt-4" href="../logout.php">
+        Logout</a>
+    </li>
+  </ul>
+</div>

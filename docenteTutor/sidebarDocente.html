@@ -1,0 +1,108 @@
+<div
+  class="d-flex flex-column align-items-center align-items-sm-start text-white min-vh-100 h-100 w-100 link-light sidebar">
+  <span class="fs-5 mb-3 mt-4 accent-color">
+    <p style="font-size:xx-large;">Bridge</p>
+  </span>
+  <ul class="nav nav-pills flex-column align-items-center align-items-sm-start h-100 w-100" id="menu">
+    <li class="nav-item">
+      <a href="../docenteTutor/docenteTutor.php" class="nav-link align-middle px-0">
+        <i class="fs-4 bi-house d-none d-sm-inline"></i> <span class="ms-1  text-white">Home</span>
+      </a>
+    </li>
+    <li>
+      <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-pin-angle d-none d-sm-inline"></i> <span class="ms-1  text-white">Corsi</span> </a>
+      <ul class="collapse show flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../docenteTutor/creaCorso.php" class="nav-link px-0"> <span class=" text-white">Crea corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../condivise/riepilogoCorso.php" class="nav-link px-0"> <span class=" text-white">Riepilogo corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../docenteTutor/modificaCorso.php" class="nav-link px-0"> <span class=" text-white">Modifica corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../condivise/archiviaCorso.php" class="nav-link px-0"> <span class=" text-white">Archivia
+              corso</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../condivise/eliminaCorso.php" class="nav-link px-0"> <span class=" text-white">Elimina
+              corso</span></a>
+        </li>
+      </ul>
+    </li>
+
+
+    <li>
+      <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-code-slash d-none d-sm-inline"></i> <span class="ms-1  text-white">Esercizi</span></a>
+      <ul class="collapse show flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../docenteTutor/creaTipoEsercizio.php" class="nav-link px-0"> <span class=" text-white">Crea tipo
+              esercizio</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../docenteTutor/gestisciTipiEsercizi.php" class="nav-link px-0"> <span class=" text-white">Gestisci
+              tipi esercizi</span></a>
+        </li>
+        <!--li class="w-100">
+          <a href="../docenteTutor/abilitaTipoEsercizio.php" class="nav-link px-0"> <span class=" text-white">Abilita tipi esercizi</span></a>
+        </li-->
+        <li class="w-100">
+          <a href="../docenteTutor/correggiEsercizio.php" class="nav-link px-0"> <span
+              class=" text-white">Correggi esercizi (e plagiarismo)</span></a>
+        </li>
+      </ul>
+    </li>
+
+
+    <li>
+      <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-book d-none d-sm-inline"></i> <span class="ms-1  text-white">Tesine</span></a>
+      <ul class="collapse show flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../docenteTutor/creaTipoTesina.php" class="nav-link px-0"> <span class=" text-white">Crea tipo
+              tesina</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../docenteTutor/gestisciTipiTesine.php" class="nav-link px-0"> <span class=" text-white">Gestisci
+              tipi tesine</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../docenteTutor/assegnaTesine.php" class="nav-link px-0"> <span class=" text-white">Assegna
+              tesine</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../docenteTutor/statiTesine.php" class="nav-link px-0"> <span class=" text-white">Stati tesine</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../docenteTutor/resetAccountTesine.php" class="nav-link px-0"> <span class=" text-white">Reset
+              account tesine</span></a>
+        </li>
+      </ul>
+    </li>
+
+    <li>
+      <a href="#submenu4" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+        <i class="fs-4 bi-person d-none d-sm-inline"></i> <span class="ms-1  text-white">Studenti</span></a>
+      <ul class="collapse show flex-column ms-1" id="submenu4" data-bs-parent="#menu">
+        <li class="w-100">
+          <a href="../condivise/corsiFrequentatiMatricola.php" class="nav-link px-0"> <span class=" text-white">Corsi
+              frequentati da studenti e disiscrizione</span></a>
+        </li>
+        <li class="w-100">
+          <a href="../condivise/gestisciUtenti.php" class="nav-link px-0"> <span class=" text-white">Gestisci
+              utenti</span></a>
+        </li>
+      </ul>
+    </li>
+
+
+    <hr style="background-color: white; border-color: white; height: 1px; border: 1px;">
+    <li class="text-center">
+      <a class="btn btn-outline-danger px-3 mt-4" href="../logout.php">
+        Logout</a>
+    </li>
+  </ul>
+</div>

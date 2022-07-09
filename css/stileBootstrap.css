@@ -1,0 +1,29 @@
+:root {
+  --accent: #FFECCC;
+}
+i{
+    color:white;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.sidebar li, .sidebar ul{ /*Imposta gli elementi della sidebar (div con questa classe) per prendere tutto il loro spazio in orizzontale*/
+  width: 100%;
+}
+.asd {
+  padding: 0 !important;
+}
+tr{
+  background-color: var(--accent) !important;
+}
+.accent-color{
+  color: var(--accent) !important;
+}
+#myTable>thead>tr>th:hover{
+  cursor: pointer;
+}
+#myTable2>thead>tr>th:hover{
+  cursor: pointer;
+}
