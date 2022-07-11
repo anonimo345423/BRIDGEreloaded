@@ -110,7 +110,7 @@ $username = $_SESSION['username'];
           if ($row["testo"] == NULL) { //cioè se esce che non ci sono entry in studentitesina con l'username dello studente:
             echo '<div class="container-fluid bg-white mt-2 mb-5 border table-responsive py-5 rounded-3 text-center">';
             echo ("<p>Non hai ancora una tesina assegnata<br>Svolgi gli esercizi e poi fattene assegnare una!</p>");
-            echo "<a href='http://localhost/BRIDGE/utente/selezioneCorso.php?to=tesinaAssegnata' class='btn btn-primary'>Torna indietro</a>";
+            echo "<a href='selezioneCorso.php?to=tesinaAssegnata' class='btn btn-primary'>Torna indietro</a>";
             exit();
           }
           ?>

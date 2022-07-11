@@ -79,7 +79,7 @@ if (!isset($_SESSION['valid']) || $permesso != 1) {
             if ($maxStudentiTesine == 0) {
               echo '<div class="container-fluid bg-white mt-2 mb-5 border table-responsive py-5 rounded-3 text-center">';
               echo "Questo corso non prevede tesine<br><br>";
-              echo "<a href='http://localhost/BRIDGE/utente/selezioneCorso.php?to=listaTesine' class='btn btn-primary'>Torna indietro</a>";
+              echo "<a href='selezioneCorso.php?to=listaTesine' class='btn btn-primary'>Torna indietro</a>";
               exit();
             }
             ?>
